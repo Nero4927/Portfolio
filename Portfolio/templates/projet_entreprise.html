@@ -1,0 +1,173 @@
+{% load static %}
+<!doctype html>
+<html lang="fr">
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>Portfolio Alexis TOTY</title>
+    
+        <link rel="stylesheet" href="{% static 'main.css' %}">
+        <link rel="stylesheet" href="{% static 'heading.css' %}">
+        <link rel="stylesheet" href="{% static 'body.css' %}">
+
+    </head>
+    <body id="page-top">
+        <nav class="navbar navbar-expand-lg" id="mainNav">
+            <div class="container"><a class="navbar-brand js-scroll-trigger" href="">PORTFOLIO Alexis TOTY</a>
+                <button class="navbar-toggler navbar-toggler-right font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu <i class="fas fa-bars"></i></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="Accueil">ACCUEIL</a>
+                        </li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="Entreprise">Entreprise</a>
+                        </li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="projet_ecole">PROJETS Ecole</a>
+                        </li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="veille">VEILLE</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <header class="masthead bg-primary text-white text-center">
+            <div class="container d-flex align-items-center flex-column">
+                
+                
+                <h1 class="masthead-heading mb-0">PROJET ENTREPRISE</h1>
+                
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    
+                </div>
+                <p class="pre-wrap masthead-subheading font-weight-light mb-0">Ici est la page avec tout le recap des projets fait en entreprise sur ces 2 années de BTS  </p>
+                
+            </div>
+        </header>
+            <section class="page-section portfolio" id="portfolio">
+                <div class="container">
+                    <div class="text-center">
+                        <h2 class="page-section-heading text-secondary mb-0 d-inline-block">Projets réalisés</h2>
+                    </div>
+                    <div class="divider-custom">
+                        <div class="divider-custom-line"></div>
+                        
+                    </div>
+        
+    
+                <div class="container">
+                    <div class="row justify-content-center">
+                        
+                        <div class="col-md-6 col-lg-4 mb-5">
+                            <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
+                                <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                                </div><img class="img-fluid" src="{% static '/Redmine_logo.png' %}" alt="cursus"/>
+                            </div>
+                        </div> 
+                        <div class="col-md-6 col-lg-4 mb-5">
+                            <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
+                                <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                                </div><img class="img-fluid" src="{% static '/linutop.png' %}" alt="cursus"/>
+                            </div>
+                        </div> 
+            </section>
+            <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal1Label" aria-hidden="true">
+                <div class="modal-dialog modal-xl" role="document">
+                    <div class="modal-content">
+                        <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                        <div class="modal-body text-center">
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-8">
+                                        
+                                        <h2 class="portfolio-modal-title text-secondary mb-0">Redmine</h2>
+                                        
+                                        
+                                        <img class="img-fluid rounded mb-5" src="{% static '/Redmine_logo.png' %}" alt="etudes"/>
+                                        
+                                        <p class="mb-5"> 
+                                        Redmine est une plateforme comme GLPI une plateforme de ticketing utilisé au seins de mon entrerise nous somme les gestinnaires de cette plateforme qui sert a créer des tickets pour tout problème ou incident informatique.
+                                
+                                        </p>
+                                        <img class="img-fluid rounded mb-5" src="{% static '/' %}" alt="Redmine"/>
+                                        <p>
+
+                                        </p>
+    
+                                        <img class="img-fluid rounded mb-5" src="{% static '/ng' %}" alt="Redmine"/>
+                                        <p>
+                                        </p>
+                                        <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Fermer</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal1Label" aria-hidden="true">
+                <div class="modal-dialog modal-xl" role="document">
+                    <div class="modal-content">
+                        <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                        <div class="modal-body text-center">
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-8">
+                                        
+                                        <h2 class="portfolio-modal-title text-secondary mb-0">LINUTOP</h2>
+                                        
+                                        <div class="divider-custom">
+                                            <div class="divider-custom-line"></div>
+                                            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                            <div class="divider-custom-line"></div>
+                                        </div>
+                                        <img class="img-fluid rounded mb-5" src="{% static '/' %}" alt="Linutop"/>
+                                        
+                                        <p class="mb-5"> 
+                                            Le Linutop est un ordinateur personnel de dimensions réduites (nettop), sans aucun ventilateur (et donc totalement silencieux), consommant peu d'énergie. Sa fonction est de proposer des solutions intégrées pour les entreprises : borne internet, affichage dynamique grâce au logiciel Linutop Kiosk ainsi qu'au serveur Linutop TV.
+                                        </p>
+                                        <img class="img-fluid rounded mb-5" src="{% static '/' %}" alt="linutop"/>
+                                        <p class="mb-5">
+                                        
+                                        </p>
+    
+    
+                                        <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Fermer</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+            
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+            
+            <script src="assets/mail/jqBootstrapValidation.js"></script>
+            <script src="assets/mail/contact_me.js"></script>
+            
+            <script src="{% static '/scripts.js' %}"></script>
+            </body>
+        
+        <footer class="footer text-center">
+            <div class="container">
+                <div class="row">
+                    
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="mb-4"></h4>
+                        <p class="pre-wrap lead mb-0"> </p>
+                    </div>
+                    
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="mb-4">me retrouver sur les réseaux </h4><a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/alexis-toty-2a8461207/"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/Nero4927"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>

@@ -1,0 +1,275 @@
+{% load static %}
+<!doctype html>
+<html lang="fr">
+   
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>Portfolio Alexis TOTY</title>
+    
+        <link rel="stylesheet" href="{% static 'main.css' %}">
+        <link rel="stylesheet" href="{% static 'heading.css' %}">
+        <link rel="stylesheet" href="{% static 'body.css' %}">
+
+    </head>
+    <body id="page-top">
+        <nav class="navbar navbar-expand-lg" id="mainNav">
+            <div class="container"><a class="navbar-brand js-scroll-trigger" href="">Alexis TOTY</a>
+                <button class="navbar-toggler navbar-toggler-right font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu <i class="fas fa-bars"></i></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="Entreprise">Entreprise</a>
+                        </li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="projet_entreprise">PROJETS Entreprise</a>
+                        </li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="projet_ecole">PROJETS Ecole</a>
+                        </li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="veille">VEILLE</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <header class="masthead bg-primary text-white text-center">
+            <div class="container d-flex align-items-center flex-column">
+                <img class="masthead-avatar mb-5" src="{% static '/moi.png' %}" alt="">
+                
+                <h1 class="masthead-heading mb-0">PORTFOLIO</h1>
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    
+                </div>
+                                
+                <p class="pre-wrap masthead-subheading font-weight-light mb-0">Alexis TOTY - alternant - BTS SIO SLAM </p>
+                <p class="pre-wrap masthead-subheading font-weight-light mb-0">Je m'appelle Alexis TOTY j'ai 19 ans actuellement en BTS SIO SLAM j'ai des compétences en HTML; CSS; PYTHON; et suis disponible pour tout</p>
+            </div>
+        </header>
+     
+    <section class="page-section portfolio" id="portfolio">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="page-section-heading text-secondary mb-0 d-inline-block">MA PRESENTATION</h2>
+                </div>
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    
+                </div>
+
+            <div class="container">
+                <div class="row justify-content-center">
+                    
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal0">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div><img class="img-fluid" src="{% static '/diplome.jpg' %}" alt="cursus"/>
+                        </div>
+                    </div> 
+                        </div>
+                
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center ">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div><img class="img-fluid" src="{% static '/espace.png' %}" alt="presentation"/>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center ">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div><img class="img-fluid" src="{% static '/competence.jpg' %}" alt="competence"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+<section>
+    <div class="portfolio-modal modal fade" id="portfolioModal0" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal0Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                            
+                                <h2 class="portfolio-modal-title text-secondary mb-0">Diplômes et cursus</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio - Image--><img class="img-fluid rounded mb-5" src="{% static '/diplome.jpg' %}" alt="etudes"/>
+                                <!-- Portfolio- Text-->
+                                <p class=" text-black">Actuellement titulaire d'un bacalaureat STMG option Marketing je poursuis mes études en BTS SIO option SLAM pour me dirigé vers le secteur du Web dev ou mobile dev  </p>
+                                <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Fermer</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                            
+                                <h2 class="portfolio-modal-title text-secondary mb-0">Mes Passions</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <img class="img-fluid rounded mb-5" src="{% static '/espace.png' %}" alt="etudes"/>
+                                <!-- Portfolio- Text-->
+                                <p class="mb-5"> 
+                                    - Salut👋, Je suis Nero4927 plus comunément appeler Alexis TOTY.<br>
+                                    - Ma formation🎓: Tout droit sortie d'un Bacalauréat STMG option Marketing je poursuis mes études en BTS SIO SLAM.<br>
+                                    - Travail🏭, En aternance pour ma formation dans la sotiété HUTCHINSON Persan en tant que assistant technicien informatique.<br>
+                                    - Passion 🕹️🏉, Je joue aux jeux vidéos, je suis membres du bureau des élèves de l'ESIEE-IT BD Enragés en temps que chargé communication et je suis aussi educateur de rugby pour la catégorie M12.<br>
+                                    
+                                    J'aime travaillé avec :
+                                    - 🐍Python
+                                    - 🌐Django
+                                    - HTML
+                                    - CSS
+                                    - JavaScript
+                                    - VueJS
+                                    <br>
+                                    Mes Passions :
+                                    - 🎵 La musique 
+                                    - 🍜 La gastronomie
+                                    - 🕹️ Les jeux vidéos 
+                                    - 🎞️ Movies
+                                    - 💲 L'argent
+                                    - 🏉Le rugby  </p>
+                                <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Fermer</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                
+                                <h2 class="portfolio-modal-title text-secondary mb-0">Mes compétences</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <img class="img-fluid rounded mb-5" src="{% static '/competence.jpg' %}" alt="etudes"/>
+                                
+                                <p class="mb-5"> 
+                                    Mes compétences sont :<br>
+                                - 🐍Python<br>
+                                - 🌐Django<br>
+                                - HTML,CSS<br>
+                                - UI Design<br>
+                                - Droit appliqué a l'informatique<br>
+
+                                </p>
+                                <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Fermer</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="page-section bg-primary text-white mb-0" id="about">
+    <div class="container">
+        
+        <div class="text-center">
+            <h2 class="page-section-heading d-inline-block text-white">A PROPOS</h2>
+        </div>
+
+        <div class="divider-custom">
+            <div class="divider-custom-line"></div>
+            
+        </div>
+        
+        <div class="row">
+            <div class="col-lg-4 ml-auto">
+                <p class="pre-wrap lead"> Mon entreprise est HUTCHINSON Persan ou mes mission sont le support informatique au utilisateurs et la participation dans des projets de digitalisation de mon entreprise.</p>
+                <img class="img-fluid rounded mb-5" src="{% static '/hutchinson.jpg' %}" alt="Hutchinson"/>
+            </div>
+            <div class="col-lg-4 mr-auto">
+                <p class="pre-wrap lead"> Mon école est ESIEE_IT a Pontoise et je suis en BTS SIO SLAM première année mon rythme est de 1 semaine au centre de formation et 1 semaine dans mon entreprise.</p>
+                <img class="img-fluid rounded mb-5" src="{% static '/esiee.jpg' %}" alt="esiee"/>
+            </div>
+            </div>
+        </div>
+        </section>
+        <section class="page-section" id="contact">
+            <div class="container">
+                
+                <div class="text-center">
+                    <h2 class="page-section-heading text-secondary d-inline-block mb-0">CONTACT</h2>
+                </div>
+                
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    
+                </div>
+                
+                <div class="row justify-content-center">
+                    <div class="col-lg-4">
+                        <div class="d-flex flex-column align-items-center">
+                        
+                            <div class="text-muted">Email</div><a class="lead font-weight-bold" href="mailto:alexis.toty1727@gmail.com">alexis.toty1727@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="{% static '/scripts.js' %}"></script>
+    </body>
+
+<footer class="footer text-center">
+    <div class="container">
+        <div class="row">
+            
+            <div class="col-lg-4 mb-5 mb-lg-0">
+                <h4 class="mb-4"></h4>
+                <p class="pre-wrap lead mb-0"> </p>
+            </div>
+            
+            <div class="col-lg-4 mb-5 mb-lg-0">
+                <h4 class="mb-4">me retrouver sur les réseaux </h4><a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/alexis-toty-2a8461207/"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/Nero4927"><i class="fab fa-fw fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+<section class="copyright py-4 text-center text-white">
+    <p>© Copyright Alexis TOTY. Tous droit réservé</p>
+    <div class="container"><small class="pre-wrap"> </small></div>
+</section>
+</html>
