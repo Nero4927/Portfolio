@@ -1,0 +1,5 @@
+configurer serveur de temps
+Remplacer fichier "/etc/systemd/timesyncd.conf"
+déposé le fichier dans /home/pi et faire la commande "cp /home/pi/timesyncd.conf  /etc/systemd/timesyncd.conf
+
+

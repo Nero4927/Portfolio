@@ -1,0 +1,14 @@
+connecter Raspberry sur internet
+
+installer le paquet : "hardware and software inventory tool"
+redémarrer raspberry
+
+Installé l'agent fusion inventory depuis internet avec la commande apt get install fusioninventory
+
+remplacer fichier  "/etc/fusioninventory/agent.cfg" déposé le nouveau fichier sur /home/pi et taper la commande "cp /home/pi/agent.cfg  /etc/fusioninventory/agent.cfg"
+
+après remplacement fichier taper la commande:
+systemctl reload fusioninventory-agent
+
+redémarrer agent fusion inventory:
+systemctl restart fusioninventory-agent
