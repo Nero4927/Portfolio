@@ -16,7 +16,7 @@
     </head>
     <body id="page-top">
         <nav class="navbar navbar-expand-lg" id="mainNav">
-            <div class="container"><a class="navbar-brand js-scroll-trigger" href="">PORTFOLIO Alexis TOTY</a>
+            <div class="container"><a class="navbar-brand js-scroll-trigger" href="">Alexis TOTY</a>
                 <button class="navbar-toggler navbar-toggler-right font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu <i class="fas fa-bars"></i></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
@@ -34,12 +34,12 @@
         </nav>
         <header class="masthead bg-primary text-white text-center">
             <div class="container d-flex align-items-center flex-column">
-                
+                <img class="masthead-avatar mb-5" src="{% static '/hutchinson1.jpg' %}" alt="">
                 
                 <h1 class="masthead-heading mb-0">PROJET ENTREPRISE</h1>
                 
                 <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
+                    
                     
                 </div>
                 <p class="pre-wrap masthead-subheading font-weight-light mb-0">Ici est la page avec tout le recap des projets fait en entreprise sur ces 2 années de BTS  </p>
@@ -52,7 +52,7 @@
                         <h2 class="page-section-heading text-secondary mb-0 d-inline-block">Projets réalisés</h2>
                     </div>
                     <div class="divider-custom">
-                        <div class="divider-custom-line"></div>
+                        
                         
                     </div>
         
@@ -90,16 +90,39 @@
                                         <img class="img-fluid rounded mb-5" src="{% static '/Redmine_logo.png' %}" alt="etudes"/>
                                         
                                         <p class="mb-5"> 
-                                        Redmine est une plateforme comme GLPI une plateforme de ticketing utilisé au seins de mon entrerise nous somme les gestinnaires de cette plateforme qui sert a créer des tickets pour tout problème ou incident informatique.
+                                        Redmine est une plateforme comme GLPI une plateforme de ticketing utilisé au seins de mon entreprise nous somme les gestionnaires de cette plateforme qui sert a créer des tickets pour tout problème ou incident informatique.
                                 
                                         </p>
-                                        <img class="img-fluid rounded mb-5" src="{% static '/' %}" alt="Redmine"/>
+                                        <img class="img-fluid rounded mb-5" src="{% static '/redmine2.png' %}" alt="Redmine"/>
                                         <p>
-
+                                        ici On voit le tableau de bord que je peux avoir en tant que gestionnaire je vois tout les tickets créer par les utilisateurs
                                         </p>
-    
-                                        <img class="img-fluid rounded mb-5" src="{% static '/ng' %}" alt="Redmine"/>
+                                        <img class="img-fluid rounded mb-5" src="{% static '/redmine5.png' %}" alt="Redmine"/>
                                         <p>
+                                            ICI on peut voir tout les attribut que peut avoir un ticket:<br>
+                                            - Le numéro du ticket<br>
+                                            - Sa priorité bas, normal ou haut<br>
+                                            - Si c'est une assistance ou une amélioration<br>
+                                            - Son statut assigné, en pause, en cours, clôturer, abandonné<br>
+                                            - Le sujet du ticket <br>
+                                            - L'utilisateur qui a fait le ticket <br>
+                                            - A qui il est attribué<br>
+                                            - La date de la création du ticket<br>
+                                            - La date a la quel le ticket a été mise a jour<br>
+                                        </p>
+                                        <img class="img-fluid rounded mb-5" src="{% static '/redmine1.png' %}" alt="Redmine"/>
+                                        <p>
+                                        Ici exemple de ticket avec le rappel de tout les attribut et de nouveau avec une échéance le type de la demande et le % de réalisation du ticket 
+                                        
+                                        </p>
+                                        <img class="img-fluid rounded mb-5" src="{% static '/redmine4.png' %}" alt="Redmine"/>
+                                        <p>
+                                        La phase de modification du ticket ou la je modifie le statut du ticket et une zone de commentaire ou je mets tout ce que j'ai du faire pour réalisé ce ticket 
+                                        </p>
+                                        <img class="img-fluid rounded mb-5" src="{% static '/redmine3.png' %}" alt="Redmine"/>
+                                        <p>
+                                        L'historique du ticket pour voir ce que chacun de l'équipe IT a pue faire sur ce ticket et permet un meilleur suivi entre nous
+                                        
                                         </p>
                                         <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Fermer</button>
                                     </div>
@@ -120,7 +143,7 @@
                                         
                                         <h2 class="portfolio-modal-title text-secondary mb-0">LINUTOP</h2>
                                         
-                                       
+                                        
                                         <img class="img-fluid rounded mb-5" src="{% static '/linutop.png' %}" alt="Linutop"/>
                                         
                                         <p class="mb-5"> 
@@ -128,26 +151,18 @@
                                         </p>
                                         <img class="img-fluid rounded mb-5" src="{% static '/linutop/linutopos-raspi-demo.jpg' %}" alt="linutop"/>
                                         <p class="mb-5">
-                                        Tout d'abord parlons de L'OS car pour ce projet l'OS linutop devait être mis sur des Raspberry donc un apprentissage de configuration d'un environement linux avec plusieurs étapes.<br>
+                                        Tout d'abord parlons de L'OS car pour ce projet l'OS linutop devait être mis sur des Raspberry donc un apprentissage de configuration d'un environnement linux avec plusieurs étapes.<br>
                                         - commande bash modification de la date et d'un fichier de configuration<br>
                                         - ajout de la licence linutop<br>
                                         - modification des paramètres<br> 
                                         - configuration du serveur linutop.<br>
                                         Lien vers la procédure créer pour l'installation.
-                                        <div class="divider-custom">
-                                            <div class="divider-custom-line"></div>
-                                            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                            <div class="divider-custom-line"></div>
-                                        </div>
-                                        <img class="img-fluid rounded mb-5" src="{% static '/' %}" alt="Linutop"/>
-                                        
+                                        <br>
+                                        <img class="img-fluid rounded mb-5" src="{% static '/linutop/config nom machine.png' %}" alt="Linutop"/>
                                         <p class="mb-5"> 
-                                            Le Linutop est un ordinateur personnel de dimensions réduites (nettop), sans aucun ventilateur (et donc totalement silencieux), consommant peu d'énergie. Sa fonction est de proposer des solutions intégrées pour les entreprises : borne internet, affichage dynamique grâce au logiciel Linutop Kiosk ainsi qu'au serveur Linutop TV.
+                                        Ici un exemple de commande bash que j'ai pue réalisé lors de la configuration des linutop
                                         </p>
-                                        <img class="img-fluid rounded mb-5" src="{% static '/' %}" alt="linutop"/>
-                                        <p class="mb-5">
                                         
-                                        </p>
     
     
                                         <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Fermer</button>
