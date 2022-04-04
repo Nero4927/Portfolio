@@ -90,7 +90,13 @@
                             <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div><img class="img-fluid" src="{% static '/rugby.png' %}" alt="cursus"/>
                         </div>
-                    </div> 
+                    </div> <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div><img class="img-fluid" src="{% static '/Luxurious_Resort.png' %}" alt="cursus"/>
+                        </div>
+                    </div>
         </section>
         <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal1Label" aria-hidden="true">
             <div class="modal-dialog modal-xl" role="document">
@@ -244,11 +250,6 @@
                                     
                                     <h2 class="portfolio-modal-title text-secondary mb-0">RUGBY</h2>
                                     
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
                                     <img class="img-fluid rounded mb-5" src="{% static '/rugby.png' %}" alt="etudes"/>
                                     
                                     <p class="mb-5"> 
@@ -268,6 +269,40 @@
                                         Le résultat est l'écriture du billet avec son id et les informations du stade de l'équipe domicile et extérieur 
 
                                     </p>
+                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Fermer</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal1Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    
+                                    <h2 class="portfolio-modal-title text-secondary mb-0">Textadventure</h2>
+
+                                    <img class="img-fluid rounded mb-5" src="{% static '/auacademy.png' %}" alt="etudes"/>
+                                    
+                                    <p class="mb-5"> 
+                                    Contexte:
+                                    Un manga très en vogue désire être adapté en jeu vidéo par son comité de production. Afin de valider les idées de gameplay, le ton des dialogues, et pour récapituler rapidement tout ce que l'on pourra faire dans le jeu, le studio mandaté a décidé de réaliser un prototype sous forme de jeu textuel qui se joue dans le terminal.
+                                    Dans le scénario du manga, le lycée A.U. vise à former les meilleurs héros des pays où il se trouve. Son nom vient de la prononciation des lettres "AU" en anglais qui est semblable à la prononciation de "héros" en japonais, qui se dit "eiyuu". Toute référence à un autre lycée n'est que fortuite...
+                                    L'action du jeu se passe donc dans ce lycée. Après avoir rempli un questionnaire au début du jeu pour créer le personnage principal, le joueur peut se déplacer librement dans différents endroits du lycée, chacune proposant des actions que l'on peut réaliser.<br>
+                                    <br>
+                                    CDC: pour la planification de ce projet nous avons eu le cours sur les base python avec le cours d'introduction réalisé par michael hubert <a href="https://github.com/esieeit-slam-20-21/python-course/tree/main/exercices/textadventure">Dispo ici</a>
+                                    </p>
+                                    <img class="img-fluid rounded mb-5" src="{% static '/textadventure1.png' %}" alt="etudes"/>
+                                    <p>Ici les difficultés rencontré était le jeu de variables a faire car pour coder j'ai appeler des fonctions et variables a tout va le but etait de nous faire découvrir le code en python et le faire a notre manières mais ce code n'est pas optimisé et assez complexe peut ce perdre facilement</p>
+
+                                    <img class="img-fluid rounded mb-5" src="{% static '/textadventure2.png' %}" alt="etudes"/>
+                                    <p>ici on peut voir le résultat dans le terminal de Visual Studio code un petit jeu de question réponse </p>
                                     <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Fermer</button>
                                 </div>
                             </div>
